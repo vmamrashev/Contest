@@ -38,17 +38,3 @@ int main(void) {
 
     return 0;
 }
-/*
-    char *sgets(char *line, size_t size) {
-        size_t i;
-        for (i = 0; i < size - 1; ++i) {
-            int ch = fgetc(stdin);
-            if (ch == '\n' || ch == EOF) {
-                break;
-            }
-            line[i] = ch;
-        }
-        line[i] = '\0';
-        return line;
-    }
-    */
